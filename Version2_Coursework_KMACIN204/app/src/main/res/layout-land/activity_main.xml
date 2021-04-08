@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Kenny MacInnes
+    S1710196-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <TextView android:id="@+id/salutation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="Welcome to The Earthquake App!"/>
+    <TextView android:id="@+id/matric" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="matric number: S1710196"/>
+    <Button android:id="@+id/startButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Press to get data" android:backgroundTint="@color/teal_700"/>
+    <Button android:id="@+id/SpecifyDate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Specify Date" android:backgroundTint="@color/teal_700"/>
+    <Button android:id="@+id/ViewMap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="check the map view" android:backgroundTint="@color/teal_700"/>
+    <TextView android:id="@+id/acknowledgement" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="Contains British Geological Survey materials ©NERC 2019"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/xmlFeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+
+</LinearLayout>

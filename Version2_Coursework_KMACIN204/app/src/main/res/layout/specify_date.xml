@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Kenny MacInnes
+    S1710196-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" tools:context=".SpecifyDate">
+    <TextView android:id="@+id/startDateLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="Start Date"/>
+    <EditText
+        android:id="@+id/startDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Include Forward Slashes"
+        android:inputType="textPersonName">
+    </EditText>
+    <TextView android:id="@+id/endDateLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="End Date"/>
+    <EditText
+        android:id="@+id/endDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Include Forward Slashes"
+        android:inputType="textPersonName">
+    </EditText>
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:backgroundTint="@color/teal_700"/>
+
+    <ListView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+
+</LinearLayout>
